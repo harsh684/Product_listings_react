@@ -1,0 +1,13 @@
+.main-title{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.filter-container{
+    width: fit-content;
+}
+@media only screen and (max-width: 576px){
+    .filter-container{
+        margin-top: 10px;
+        width: 89%;
+    }
+}
