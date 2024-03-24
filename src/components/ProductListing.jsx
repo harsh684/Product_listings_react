@@ -66,8 +66,8 @@ const ProductListing = () => {
   return (
     <div className='container-fluid p-0 my-2'>
       <div className='main-title text-center fs-1'>Products</div>
-      <div className='justify-content-center justify-content-sm-end d-flex w-100'>
-        <div className='filter-container shadow'>
+      <div className='justify-content-center justify-content-sm-end d-flex w-100 px-sm-2 px-md-1 px-xl-4'>
+        <div className='filter-container shadow '>
           <select className='form-select' onChange={(e) => e.target.value === '' ? clearFilter() : filterByCategory(e.target.value)}>
             <option value=''>All Categories</option>
             <option value='smartphones'>Smartphones</option>
